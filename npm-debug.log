@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 warn package.json meniulzilei@0.0.1 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/mihaigomoi/meniulzilei', [ 'mime' ] ]
+8 info preinstall meniulzilei@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'mime@~1.2.7', null ]
+11 verbose cache add name=undefined spec="mime@~1.2.7" args=["mime@~1.2.7",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'mime@~1.2.7',
+12 verbose parsed url   path: 'mime@~1.2.7',
+12 verbose parsed url   href: 'mime@~1.2.7' }
+13 verbose cache add name="mime" spec="~1.2.7" args=["mime","~1.2.7"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '~1.2.7',
+14 verbose parsed url   path: '~1.2.7',
+14 verbose parsed url   href: '~1.2.7' }
+15 verbose addNamed [ 'mime', '~1.2.7' ]
+16 verbose addNamed [ null, '>=1.2.7-0 <1.3.0-0' ]
+17 silly lockFile 3725bc70-mime-1-2-7 mime@~1.2.7
+18 verbose lock mime@~1.2.7 /home/mihaigomoi/.npm/3725bc70-mime-1-2-7.lock
+19 silly addNameRange { name: 'mime', range: '>=1.2.7-0 <1.3.0-0', hasData: false }
+20 verbose request where is /mime
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id e5c9f10e66b336d9
+23 verbose url raw /mime
+24 verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+25 verbose url resolved https://registry.npmjs.org/mime
+26 verbose request where is https://registry.npmjs.org/mime
+27 info trying registry request attempt 1 at 16:49:50
+28 verbose etag "5CR6JD8QPNMAEOZOTXUFCGK0D"
+29 http GET https://registry.npmjs.org/mime
+30 http 200 https://registry.npmjs.org/mime
+31 silly registry.get cb [ 200,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"3ZRQIU5H2D52GRYT3000WPDFS"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     'content-length': '19817',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Fri, 22 May 2015 13:49:50 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '51',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-fra1238-FRA',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1432302590.111144,VS0,VE0',
+31 silly registry.get     vary: 'Accept' } ]
+32 silly addNameRange number 2 { name: 'mime', range: '>=1.2.7-0 <1.3.0-0', hasData: true }
+33 silly addNameRange versions [ 'mime',
+33 silly addNameRange   [ '1.0.0',
+33 silly addNameRange     '1.1.0',
+33 silly addNameRange     '1.2.1',
+33 silly addNameRange     '1.2.2',
+33 silly addNameRange     '1.2.3',
+33 silly addNameRange     '1.2.4',
+33 silly addNameRange     '1.2.5',
+33 silly addNameRange     '1.2.6',
+33 silly addNameRange     '1.2.7',
+33 silly addNameRange     '1.2.8',
+33 silly addNameRange     '1.2.9',
+33 silly addNameRange     '1.2.10',
+33 silly addNameRange     '1.2.11',
+33 silly addNameRange     '1.3.0',
+33 silly addNameRange     '1.3.2',
+33 silly addNameRange     '1.3.3',
+33 silly addNameRange     '1.3.4' ] ]
+34 verbose addNamed [ 'mime', '1.2.11' ]
+35 verbose addNamed [ '1.2.11', '1.2.11' ]
+36 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+37 verbose lock mime@1.2.11 /home/mihaigomoi/.npm/c4b0741f-mime-1-2-11.lock
+38 silly lockFile 98468155-y-npmjs-org-mime-mime-1-2-11-tgz https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+39 verbose lock https://registry.npmjs.org/mime/-/mime-1.2.11.tgz /home/mihaigomoi/.npm/98468155-y-npmjs-org-mime-mime-1-2-11-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime/-/mime-1.2.11.tgz',
+40 verbose addRemoteTarball   '58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10' ]
+41 info retry fetch attempt 1 at 16:49:50
+42 verbose fetch to= /tmp/npm-10969-dVJyKkd_/registry.npmjs.org/mime/-/mime-1.2.11.tgz
+43 http GET https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+44 http 200 https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+45 silly lockFile 98468155-y-npmjs-org-mime-mime-1-2-11-tgz https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+46 silly lockFile 98468155-y-npmjs-org-mime-mime-1-2-11-tgz https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+47 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+48 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+49 silly lockFile 3725bc70-mime-1-2-7 mime@~1.2.7
+50 silly lockFile 3725bc70-mime-1-2-7 mime@~1.2.7
+51 error Error: EACCES, mkdir '/home/mihaigomoi/.npm/mime/1.2.11'
+51 error  { [Error: EACCES, mkdir '/home/mihaigomoi/.npm/mime/1.2.11']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/home/mihaigomoi/.npm/mime/1.2.11',
+51 error   parent: 'meniulzilei' }
+52 error Please try running this command again as root/Administrator.
+53 error System Linux 3.13.0-53-generic
+54 error command "/usr/bin/node" "/usr/bin/npm" "install"
+55 error cwd /home/mihaigomoi/meniulzilei
+56 error node -v v0.10.38
+57 error npm -v 1.4.28
+58 error path /home/mihaigomoi/.npm/mime/1.2.11
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/home/mihaigomoi/.npm/mime/1.2.11'
+62 verbose exit [ 3, true ]

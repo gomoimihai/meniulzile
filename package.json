@@ -1,0 +1,8 @@
+{
+    "name" :"meniulzilei",
+    "version" : "0.0.1",
+    "description" : "Meniul zilei in jurul la Balcescu",
+    "dependencies" : {
+        "mime" : "~1.2.7"
+    }
+}
