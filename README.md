@@ -1,2 +1,2 @@
-# meniulzile
+# meniulzilei
 Meniul Zilei
